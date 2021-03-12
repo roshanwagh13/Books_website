@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap" rel="stylesheet">
+       
+    <style>
+        body{
+            font-family: 'Baloo Bhaina 2', cursive; 
+            background: url("./book3.jpg") no-repeat center center/cover;
+            background-repeat: no-repeat;
+            background-size:cover; 
+            /* background-position: top; */
+            color:white;
+            padding:0;
+            margin:0;
+        }
+        .header{
+            font-size:20px;
+        }
+        .lc{
+            position:absolute; 
+            display:inline-block;            
+            /* border:2px solid red; */
+            left:50px;
+            top:20px;
+        }
+        .mid{
+            /* border:2px solid red; */
+            display: block;
+            text-align:center;
+            width:40%;
+            margin:20px auto;
+        }
+        .rc{
+            position: absolute; 
+            display:inline-block;
+            /* border:2px solid red; */
+            right:50px;
+            top:20px;
+            
+        }
+        .nav{
+            display:inline-block;
+        }
+        .nav li{
+            display: inline-block;
+        }
+        .nav li a{
+            text-decoration: none;
+            color:white;
+            padding:10px;
+        }
+        .nav li a:hover,.nav li a.active{
+            text-decoration: underline;
+            color:orange;
+        }
+        
+        .btn{
+            font-family: 'Baloo Bhaina 2', cursive; 
+            background:black;
+            color:white;
+            padding:8px;
+            border:2px solid red;
+            border-radius: 15px;
+            cursor:pointer;
+        }
+        .btn:hover{
+            background:white;
+            color:black;
+        }
+        .logo img{
+            height:80px;
+        }
+        .lc div{
+            text-align: center;
+        }
+        .container1{
+            display: block;
+            text-align:center;
+            width:50%;
+            margin:70px 300px;
+            /* border: 3px solid aqua;; */
+        }
+        .container2 input{
+            font-family: 'Baloo Bhaina 2', cursive; 
+            padding:3px;
+            position:absolute;
+            width:55%;
+            left:300px;
+            display:block;
+            margin:3px auto;
+            border:2px solid aqua;
+            border-radius:15px;
+            font-size:20px;
+            text-align:center;
+        } 
+        .container2 .btn2{
+            position:absolute;
+            display:inline-block;
+            right:300px;
+            font-family: 'Baloo Bhaina 2', cursive; 
+            background:black;
+            color:white;
+            padding:12px;
+            border:2px solid red;
+            border-radius: 15px;
+            cursor:pointer;
+        }
+        .btn2:hover{
+            background:white;
+            color:black;
+        }
+        .b1{
+            position:absolute; 
+            display:inline-block;            
+            border:2px solid red;
+            padding:15px;
+            width:10%;
+            height:12%;
+            margin:150px 200px;
+            color:darkred;        
+        }
+        .b2{
+            position:absolute; 
+            display:inline-block;            
+            border:2px solid red;
+            padding:15px;
+            width:10%;
+            height:12%;
+            margin:150px 450px;
+            color:darkred;
+        }
+        .b3{
+            position:absolute; 
+            display:inline-block;            
+            border:2px solid red;
+            padding:15px;
+            width:10%;
+            height:12%;
+            margin:150px 700px;
+            color:darkred;
+        }
+        .b4{
+            position:absolute; 
+            display:inline-block;            
+            border:2px solid red;
+            padding:15px;
+            width:10%;
+            height:12%;
+            margin:150px 950px;
+            color:darkred;
+        }
+        .container3 a{
+            color:white;
+            text-decoration: none;
+        }
+        .container3 a:hover{
+            text-decoration: underline;
+            color:orange;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="lc">
+            <div class="logo">
+                <img src="./logo.jpg" alt="">
+            </div>
+            <div>Bookwala.com</div>
+        </div>
+        <div class="mid">
+            <ul class="nav">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">How To Rent</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="rc">
+            <button class="btn" type=""submit">Create Account</button>
+            <button class="btn" type=""submit">Login</button>
+        </div>
+    </header>
+    <div class="container1">
+       <h1>Rent your textbooks.Save a bundle</h1> 
+       <h1>Rent and save upto 90%</h1>  
+    </div>
+    <div class="container2">
+        <form action="noaction.php">
+            <input type="text" placeholder="Search Books"> 
+            <button class="btn2">-></button>
+        </form>
+    </div>
+    <div class="container3">
+        <div class="b1">Free Shipping Both Ways <br><a href="#">Learn More -></a></div>
+        <div class="b2">Easy Return's<br>It's Fast <br><a href="#">Learn More -></a></div>
+        <div class="b3">Take Notes<br>Feel free to do <br><a href="#">Learn More -></a></div>
+        <div class="b4">Satisfaction <br>Guaranteed <br><a href="#">Learn More -></a></div>
+    </div>
+</body>
+</html>
